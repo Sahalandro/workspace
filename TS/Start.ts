@@ -1,6 +1,7 @@
 import p from "prompt-sync";
 const prompt = p({ sigint: true });
 
+const util = require("node:util");
 let running = true;
 let origin = { X: 1, Y: 1 };
 const playerCoordinats = { X: 1, Y: 1 };
@@ -96,6 +97,7 @@ function MapLoader() {
     }
   }
   for (let i: number = 0; i < map.length; i++) {
+    util.inspect.defaultOptions.maxArrayLength = null;
     console.log(map[i], "\n");
   }
 }
