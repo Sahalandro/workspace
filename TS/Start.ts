@@ -106,7 +106,7 @@ function randomIntFromInterval(min: number, max: number) {
 }
 
 function Encounter() {
-  if (randomIntFromInterval(1, 12) >= 13) {
+  if (randomIntFromInterval(1, 12) >= 9) {
     return true;
   }
   return false;
