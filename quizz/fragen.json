@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Tiere",
+    "questions": "Welcher Hund hat Schwimmhäute? ",
+    "answer": ["Chihuahua", "Dachs", "Rottweiler", "Labrador"],
+    "right": "Labrador"
+  },
+  {
+    "name": "Allgemein Wissen",
+    "questions": "Welcher Berg ist der höchste Berg der Welt? ",
+    "answer": ["Matterhorn", "Mount Olympus", "Mont Blanc", "Mount Everest"],
+    "right": "Mount Everest"
+  },
+  {
+    "name": "Tiere",
+    "questions": "Welches Säugetier legt Eier? ",
+    "answer": ["Bieber", "Schnabeltier", "Fledermaus", "Leprechaun"],
+    "right": "Schnabeltier"
+  },
+  {
+    "name": "Tiere",
+    "questions": "Welches Tier hat den Untergrund von New York City übernommen? ",
+    "answer": ["Schildkroeten", "Ratten", "Krokodile", "Aligatoren"],
+    "right": "Schildkroeten"
+  },
+  {
+    "name": "Allgemein Wissen",
+    "questions": "Wer hat die Relativitätstheorie entwickelt? ",
+    "answer": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Nikola Tesla",
+      "Marie Curie"
+    ],
+    "right": "Albert Einstein"
+  },
+  {
+    "name": "Allgemein Wissen",
+    "questions": "Welcher Planet ist der Größte in unserem Sonnensystem? ",
+    "answer": ["Jupiter", "Mars", "Venus", "Saturn"],
+    "right": "Jupiter"
+  }
+]
