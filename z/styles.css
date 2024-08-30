@@ -1,0 +1,27 @@
+body {
+  background-color: #db7c26;
+  color: #780116;
+  margin: 0;
+}
+a {
+  color: #780116;
+}
+hr {
+  color: #780116;
+  border-color: #780116;
+  background-color: #780116;
+}
+.NavButton {
+  border: 2px solid;
+  border-radius: 11%;
+  background-color: #d06c0e;
+  display: inline-block;
+  margin-right: 10px;
+}
+.NavButton:hover {
+  background-color: #ff922c;
+  transform: translateY(-1px);
+  border-color: #fa395c;
+  color: white;
+  box-shadow: 0px 1px 2px 1px #f49c4b;
+}

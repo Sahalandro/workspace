@@ -1,0 +1,71 @@
+html {
+  min-height: 100%;
+}
+section {
+  position: absolute;
+  top: 30%;
+  display: grid;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+body {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin: 0;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  background-image: radial-gradient(#721649, #377379);
+}
+button {
+  width: 6rem;
+  height: 6rem;
+  justify-content: center;
+  font-size: 5rem;
+  border: solid 2px;
+  border-color: black;
+  border-radius: 10%;
+}
+button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+button:active {
+  background-color: white;
+}
+output {
+  font-size: 2rem;
+  position: absolute;
+  top: 15%;
+}
+div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+output {
+  background-color: rgba(53, 56, 55, 0.575);
+  position: absolute;
+  top: 3rem;
+  height: 10rem;
+  width: 30rem;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  border-radius: 5%;
+  border: solid;
+  border-color: black;
+}
+p {
+  position: absolute;
+  top: 0px;
+  font-size: 3rem;
+  margin: 0;
+}

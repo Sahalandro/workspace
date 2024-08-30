@@ -1,0 +1,52 @@
+button {
+  height: 100px;
+  width: 100px;
+  font-size: 5rem;
+  background: linear-gradient(#9198e5, #e66465);
+  border-style: solid;
+  border-color: black;
+}
+p {
+  align-self: center;
+  font-size: 100px;
+  margin: 0;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background: linear-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.container {
+  align-self: center;
+}
+
+#Nochmal {
+  height: 100px;
+  width: 150px;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+#output {
+  position: absolute;
+  bottom: 300px;
+  right: 0px;
+  left: 0px;
+  justify-self: center;
+  font-size: 100px;
+  text-decoration: rgba(0, 0, 0, 0.735);
+  background-color: rgba(19, 0, 187, 0.735);
+}
